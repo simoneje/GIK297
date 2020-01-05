@@ -1,0 +1,89 @@
+body{
+    background-color: #000000;
+    color: #27d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    margin: 0 auto;
+}
+header{
+    display:flex;
+    justify-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #0C6980;
+}
+
+
+nav ul{
+    list-style-type:none;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+nav ul li{
+    flex: 1 1 0;
+}
+nav a{
+    text-decoration: none;
+    color:#222;
+    display:block;
+    padding: 12px;
+    margin: 0;
+}
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+.container-2{
+    margin:100px;
+}
+.container-2 h3{
+    display:flex;
+    justify-content: center;
+}
+.container-2 p{
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px #000;
+
+
+}
+#showcase{
+    width: auto;
+    height: 300px;
+    background: url("/bilder/deadmau5_showcase.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    background-color: #0C6980;
+
+}
+.main-footer ul{
+    list-style-type:none;
+    padding: 10px;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cr-footer{
+    margin: 5px 0px 0px 5px;
+}
+.cr-footer a{
+    color: #27d4d4;
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px){
+    .cr-footer{
+        width: 100%;
+    }
+    
+}
