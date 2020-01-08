@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    list-style: none;   
+    text-decoration: none;
+}
+footer{
+    background-color: green;
+
+}
+
+
+.footer1{
+    width: 100px;
+    display: flex;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.oss{
+    display: flex;
+    justify-content: flex-end;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+}
