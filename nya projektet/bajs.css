@@ -1,0 +1,48 @@
+*{
+    margin: 0 ;
+    list-style: none;   
+    text-decoration: none; }
+
+footer{
+    background-color: green;
+    padding: 10px 5px 0 5px;
+}
+
+
+.footer1{
+
+}
+.space{
+    padding:0 10px 0 0;
+}
+.footer2{
+    display: flex;
+    
+}
+.oss{
+
+}
+.main-footer{
+
+}
+.footer-bild1 img{
+	padding: 0% 25%;
+}
+.footer1 a:active{
+	color: black;
+}
+.footer1 a:link{
+	color: black;
+}
+.footer1 a:visited{
+	color: black;
+}
+.footer-bild2 img{
+	padding: 0% 25%;
+}
+.ulfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
