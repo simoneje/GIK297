@@ -92,14 +92,16 @@ label {
         display: flex;  
     }
     label {
-        display: block;
+
         cursor: pointer;
         display: flex;
-        justify-content: right;
+        justify-content: flex-end;
         background-image: linear-gradient(to bottom, 
         #99ff99,
         #66ff66);
         width: 100%;
+
+
     }
     .mMeny {
         text-align: center;

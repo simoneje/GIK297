@@ -13,8 +13,6 @@
     font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 15px;
-
-
 }
 .map{
     min-width: 50%;
@@ -95,6 +93,8 @@ footer{
     display: flex; 
     justify-content: center;
     margin: 10px 0 0 0;
+    font-size: 0.7rem;
+    font-weight: bold;
 }
 .map{
     display: flex;
@@ -110,6 +110,6 @@ footer{
 .info-text{
     margin-left: 5%;
     margin-right: 5%;
-    width: 80%;
+    width: 90%;
 }
 }
